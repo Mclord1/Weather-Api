@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Show Your Weather</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+		<link rel="stylesheet" href="styles.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="weather.js"></script>
+	</head>
+	<body>
+		<div class="container">
+	<div class="row">
+		<div class="col">
+			<div class="weather-card one">
+				<div class="top">
+					<div class="wrapper">
+						<h1 class="heading"></h1>
+						<h3 class="location"><span id="city"></span> <span id="country"></span></h3>
+						<p class="temp">
+							<span class="temp-value"></span>
+							<span class="deg"></span>
+							<a href="javascript:;"><span class="temp-type"></span></a><br>
+							<img id="icon" src="">
+						</p>
+					</div>
+				</div>
+				<div class="bottom">
+					<div class="wrapper">
+						<ul class="forecast">
+							<li class="active">
+								<span class="date">Fahenreit/Celsuis</span>
+								<button class="btn btn-default float-right" id="convert">Toggle</button>
+							</li>
+							<li class="author">Designed By MCLORD</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	</body>
+</html>
