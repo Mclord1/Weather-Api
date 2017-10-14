@@ -98,6 +98,10 @@ function getWeather(lat, lon) {
 						var Thunderstorm = "https://goo.gl/BXirA6";
 						$('.weather-card .top').css("background", "url(" +Thunderstorm+") no-repeat center center");
 						$('.weather-card .top').css("background-size", "cover");
+					default:
+						var def = "https://goo.gl/ivLf6p";
+						$('.weather-card .top').css("background", "url(" +def+") no-repeat center center");
+						$('.weather-card .top').css("background-size", "cover");
 				}
 			
 			$(".wrapper").animate({
